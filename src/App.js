@@ -14,7 +14,11 @@ function App() {
         <p>Sigue adelante, cambia siempre para mejor y nunca te rindas.</p>
         <p>
           Recuerda que nosotros siempre te estaremos apoyando en todo lo
-          posible, tu monito y tu ovejita.
+          posible, tu monito y tu{" "}
+          <a href="#" onClick={() => alert("Beeeee Beeeeee")}>
+            ovejita
+          </a>
+          .
         </p>
         <p>
           <strong>Monito: </strong> Gracias por todo lo que hiciste por
